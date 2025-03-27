@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Load the OpenAI API key from Streamlit secrets
-openai_api_key = st.secrets["openai"]["api_key"]
+openai_api_key = st.secrets["openai"]
 
 # Function to call OpenAI API
 def get_openai_response(prompt):
